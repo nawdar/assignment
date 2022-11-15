@@ -10,33 +10,33 @@
     height: 100vh;
   }
   .div1 {
-    background-color: #f9f3ec;
+    background-color: #F9F3EC;
   }
   .div2 {
-    background-color: #f5e5de;
+    background-color: #F5E5DE;
 
   }
   h1 {
     text-align: center;
     font-family: "Roboto Slab", serif;
-    color: #4f8389;
+    color: #364E54;
     font-size: 30px;
   }
   h2 {
     text-align: center;
     font-family: "Roboto Slab", serif;
     height: 50px;
-    color: #4f8389;
+    color: #364E54;
     font-size: 30px;
   }
   .text1 {
     text-align: right;
     margin: 10px;
-    color: #4f8389;
+    color: #364E54;
     font-family: "Roboto Slab", serif;
   }
   .text2 {
-    color: #4f8389;
+    color: #364E54;
     text-align: left;
     font-size: 20px;
     font-family: "Roboto Slab", serif;
@@ -55,7 +55,7 @@
   border-radius: 12px;
   }
   .b1 {
-    background-color: #4f8389;
+    background-color: #364E54;
     transform: translateX(15px);
     position: relative;
     top: -20px;
@@ -70,7 +70,7 @@
     transform: translateX(15px);
     height: 100px;
     width: 95%;
-    border: lightskyblue solid 5px;
+    border: rgb(135, 192, 250) solid 5px;
  }
  section {
     display: flex;
@@ -94,7 +94,7 @@
    top: 20px;
 }
 .b3 {
-    background-color: #4f8389;
+    background-color: #364E54;
      margin-right: 30px;
 }
 .b4 {
@@ -105,7 +105,7 @@ h3 {
     text-align: center;
     font-family: "Roboto Slab", serif;
     height: 50px;
-    color: #4f8389;
+    color: #364E54;
     font-size: 25px;
     margin-bottom: 3px;
     position: relative;
@@ -134,33 +134,33 @@ footer {
       
     }
     .div1 {
-      background-color: #f9f3ec;
+      background-color: #F9F3EC;
     }
     .div2 {
-      background-color: #f5e5de;
+      background-color: #F5E5DE;
   
     }
     h1 {
       text-align: center;
       font-family: "Roboto Slab", serif;
-      color: #4f8389;
+      color: #364E54;
       font-size: 30px;
     }
     h2 {
       text-align: center;
       font-family: "Roboto Slab", serif;
       height: 50px;
-      color: #4f8389;
+      color: #364E54;
       font-size: 30px;
     }
     .text1 {
       text-align: right;
       margin: 10px;
-      color: #4f8389;
+      color: #364E54;
       font-family: "Roboto Slab", serif;
     }
     .text2 {
-      color: #4f8389;
+      color: #364E54;
       text-align: left;
       font-size: 20px;
       font-family: "Roboto Slab", serif;
@@ -179,7 +179,7 @@ footer {
     border-radius: 12px;
     }
     .b1 {
-      background-color: #4f8389;
+      background-color: #364E54;
       transform: translateX(15px);
       position: relative;
       top: -20px;
@@ -193,9 +193,9 @@ footer {
     }
    textarea {
       transform: translateX(15px);
-      height: 200px;
+      height: 245px;
       width: 95%;
-      border: lightskyblue solid 5px;
+      border: rgb(135, 192, 250) solid 5px;
       
    }
    section {
@@ -221,7 +221,7 @@ footer {
      margin-right: 5%;
   }
   .b3 {
-      background-color: #4f8389;
+      background-color: #364E54;
        margin-right: 30px;
   }
   .b4 {
@@ -232,16 +232,16 @@ footer {
       text-align: center;
       font-family: "Roboto Slab", serif;
       height: 50px;
-      color: #4f8389;
+      color: #364E54;
       font-size: 25px;
       margin-bottom: 3px;
       position: relative;
-      top: 20px;
+      top: 65px;
     }
   footer {
       display: flex;
       justify-content: center;
-      transform: translateY(20px);
+      transform: translateY(75px);
      
   }
   
