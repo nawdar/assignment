@@ -27,5 +27,13 @@ const changeText = () => {
   ChangeTheme.addEventListener("click", changeText);
 
 
+const cancel = document.querySelector("#Cancelbtn")
+const save = document.querySelector(".b")
+function cancelBttn () {
 
+    textArea.style.visibility = "hidden"
+    cancel.style.visibility = "hidden"
+    save.style.visibility = "hidden"
+}
 
+cancel.addEventListener("click", cancelBttn)
