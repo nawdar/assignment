@@ -35,5 +35,19 @@ function cancelBttn () {
     cancel.style.visibility = "hidden"
     save.style.visibility = "hidden"
 }
-
 cancel.addEventListener("click", cancelBttn)
+
+const NewNote = document.querySelector(".bb")
+function NewNoteBttn (){
+    textArea.style.visibility = "visible"
+    cancel.style.visibility = "visible"
+    save.style.visibility = "visible"
+
+}
+NewNote.addEventListener("click", NewNoteBttn)
+
+function NewNote2 () {
+    textArea.value = ""
+
+}
+NewNote.addEventListener("click", NewNote2);
