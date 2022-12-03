@@ -51,3 +51,24 @@ function NewNote2 () {
 
 }
 NewNote.addEventListener("click", NewNote2);
+
+let NotesArray = [{title:"note one", body:"this is my first note"},]
+
+const NotesArrayElements = document.querySelector("ul")
+
+function saveBttn () {
+    let notesText = textArea.value
+let titlenote = prompt("save as:")
+    if (titlenote === null){
+      return
+     } else  { 
+        NotesArray.push({title: titlenote, body: notesText});
+        const listItem = document.createElement("li");
+     listItem.textContent = titlenote;
+    NotesArrayElements.appendChild(listItem);
+   
+
+
+    }
+}
+save.addEventListener("click", saveBttn)
